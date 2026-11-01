@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this dataset, the technical note, or the runtime model, cite this repository."
+title: "PowerStationLabs portable power data notes"
+abstract: "Source-backed specifications for legacy portable power stations, with a reference runtime model and methodology notes."
+authors:
+  - name: "PowerStationLabs"
+    website: "https://powerstationlabs.com"
+repository-code: "https://github.com/powerstationlabs/data-notes"
+url: "https://github.com/powerstationlabs/data-notes"
+license: "CC-BY-4.0"
+license-url: "https://creativecommons.org/licenses/by/4.0/"
+version: "2026.11.4"
+date-released: "2026-11-01"
+keywords:
+  - portable power stations
+  - legacy hardware
+  - runtime estimation
+  - product data
+  - LiFePO4

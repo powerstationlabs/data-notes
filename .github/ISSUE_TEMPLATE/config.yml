@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: PowerStationLabs website
+    url: https://powerstationlabs.com
+    about: Catalog, Power Finder, comparisons, and methodology.
+  - name: Data and methodology questions
+    url: https://powerstationlabs.com/methodology
+    about: How the runtime model and source policy are applied on the site.

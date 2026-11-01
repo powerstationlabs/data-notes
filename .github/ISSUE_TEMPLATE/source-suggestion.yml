@@ -1,0 +1,42 @@
+name: Source suggestion
+description: Suggest an manufacturer source for a station that is missing from the dataset.
+title: "[source] <station slug>"
+labels: ["source-suggestion"]
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Station slug or model name
+      placeholder: bluetti-ac70
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: Direct link to the manufacturer document or product page.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: publisher
+    attributes:
+      label: Publisher
+      placeholder: BLUETTI
+  - type: input
+    id: revision
+    attributes:
+      label: Revision or edition
+      placeholder: US manual, 2026 edition
+  - type: textarea
+    id: fields
+    attributes:
+      label: Which specifications does it cover?
+      description: List the fields the document can support, for example capacity, AC output, solar input, UPS switchover time.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      options:
+        - label: This is a manufacturer document, not a review or marketplace listing.
+          required: true

@@ -1,0 +1,71 @@
+name: Specification correction
+description: Report a specification that differs from an manufacturer source.
+title: "[spec] <station slug>: <field>"
+labels: ["spec-correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use a primary source: the manufacturer's user manual, datasheet, or product page. Reviews and marketplace listings are not sufficient.
+  - type: input
+    id: slug
+    attributes:
+      label: Station slug
+      description: The `slug` value from data/stations.json.
+      placeholder: ac200max
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Field
+      description: The specification key, for example `capacity`, `solar_input`, or `has_ups`.
+      placeholder: capacity
+    validations:
+      required: true
+  - type: input
+    id: current
+    attributes:
+      label: Current value
+      placeholder: "1152"
+  - type: input
+    id: proposed
+    attributes:
+      label: Proposed value
+      placeholder: "1152"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: Direct link to the manufacturer document or product page.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: locator
+    attributes:
+      label: Locator
+      description: Page, section, table, or paragraph where the value appears.
+      placeholder: Section 4.4.3, page 17
+    validations:
+      required: true
+  - type: input
+    id: variant
+    attributes:
+      label: Document variant
+      description: Region or revision, if the manufacturer publishes several versions.
+      placeholder: US manual, revision 17-0303-0380-02
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Anything else that helps verify the correction.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have read the source policy in README.md and the value comes from a primary source.
+          required: true

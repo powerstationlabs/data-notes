@@ -1,0 +1,135 @@
+{
+  "dataset_version": "2026.11.4",
+  "generated_at": "2026-11-01T13:40:34.145Z",
+  "license": "CC-BY-4.0",
+  "sources": [
+    {
+      "id": "bluetti-ac200l-alt3-manual",
+      "type": "manufacturer_manual",
+      "publisher": "BLUETTI",
+      "title": "BLUETTI AC200L — User Manual (ALT3)",
+      "url": "https://s4.bluettipower.com/bluetti/purchasePageBiz/2024/12/17.0303.0683-01_AC200L_User_Manual_BLUETTI_PPS011-6D04A1_23.12.06-1734681251003-0ce6.pdf",
+      "content_hash": "60a36721ccff7c43c8e399ffe4f45514202c60b486ec1a9701572852bf83f70c",
+      "hash_algorithm": "sha256",
+      "accessed_at": "2026-10-27",
+      "revision": null,
+      "variant": "alt3",
+      "locator": "Manufacturer user manual (full document)",
+      "models": [
+        "ac200l"
+      ]
+    },
+    {
+      "id": "bluetti-ac200l-us-manual",
+      "type": "manufacturer_manual",
+      "publisher": "BLUETTI",
+      "title": "BLUETTI AC200L — User Manual (US)",
+      "url": "https://cdn.shopify.com/s/files/1/0536/3390/8911/files/17.0303.0627-02_AC200L_User_Manual_BLUETTI_PPS011-6D01A2_23.12.06.pdf?v=1702544515",
+      "content_hash": "d202333c98a34af4dd8ea31ce5efb94b11668875c2c09c7fb0ab377e6819b802",
+      "hash_algorithm": "sha256",
+      "accessed_at": "2026-10-27",
+      "revision": null,
+      "variant": "us",
+      "locator": "Manufacturer user manual (full document)",
+      "models": [
+        "ac200l"
+      ]
+    },
+    {
+      "id": "bluetti-ac200max-us-manual",
+      "type": "manufacturer_manual",
+      "publisher": "BLUETTI",
+      "title": "BLUETTI AC200MAX — User Manual (US)",
+      "url": "https://www.bluettipower.com/products/ac200max-power-station",
+      "content_hash": "ab1f42502ce4016193e3b846ccb1b6d15e5d9079a1db13122f01a963333decbd",
+      "hash_algorithm": "sha256",
+      "accessed_at": "2026-11-01",
+      "revision": null,
+      "variant": "us",
+      "locator": "Manufacturer user manual (full document)",
+      "models": [
+        "ac200max"
+      ]
+    },
+    {
+      "id": "bluetti-bluetti-ac200max-portable-power-station-user-manual-revi-d4ff881c",
+      "type": "manufacturer_document",
+      "publisher": "BLUETTI",
+      "title": "BLUETTI AC200MAX Portable Power Station User Manual revision 17-0303-0380-02",
+      "url": "https://www.bluettipower.com/products/ac200max-power-station",
+      "content_hash": "84681d2e4eae69daf6a200d2b7590d2e1f16afee19a0f962efb30733b4ed8873",
+      "hash_algorithm": "sha256",
+      "accessed_at": "2026-09-10",
+      "revision": "17-0303-0380-02; local extracted source dated 2026-09-10",
+      "variant": null,
+      "locator": null,
+      "models": [
+        "ac200max"
+      ]
+    },
+    {
+      "id": "bluetti-bluetti-ac2a-us-manual",
+      "type": "manufacturer_manual",
+      "publisher": "BLUETTI",
+      "title": "BLUETTI AC2A — User Manual (US)",
+      "url": "https://www.bluettipower.com/products/ac2a",
+      "content_hash": "77053258451df934b3017ced32c99172aa2859ee3252d1e14275d48e0c0a511b",
+      "hash_algorithm": "sha256",
+      "accessed_at": "2026-11-01",
+      "revision": null,
+      "variant": "us",
+      "locator": "Manufacturer user manual (full document)",
+      "models": [
+        "bluetti-ac2a"
+      ]
+    },
+    {
+      "id": "bluetti-eb3a-us-manual",
+      "type": "manufacturer_manual",
+      "publisher": "BLUETTI",
+      "title": "BLUETTI EB3A — User Manual (US)",
+      "url": "https://www.bluettipower.com/products/eb3a",
+      "content_hash": "7d6552851c76a31fb2094271cc49fffbe2d93df4c3a0d30311b8850d41e754e1",
+      "hash_algorithm": "sha256",
+      "accessed_at": "2026-11-01",
+      "revision": null,
+      "variant": "us",
+      "locator": "Manufacturer user manual (full document)",
+      "models": [
+        "eb3a"
+      ]
+    },
+    {
+      "id": "bluetti-eb70-us-manual",
+      "type": "manufacturer_manual",
+      "publisher": "BLUETTI",
+      "title": "BLUETTI EB70 — User Manual (US)",
+      "url": "https://cdn.shopifycdn.net/s/files/1/0566/6396/5893/files/EN_DE_EB70.pdf",
+      "content_hash": "755218df17a93c2fef8f0a440aea8b89a33619117f00abb7a5b082f7f491a43b",
+      "hash_algorithm": "sha256",
+      "accessed_at": "2026-11-01",
+      "revision": null,
+      "variant": "us",
+      "locator": "Manufacturer user manual (full document)",
+      "models": [
+        "eb70"
+      ]
+    },
+    {
+      "id": "bluetti-bluetti-pioneer-md-ac180t-us-manual",
+      "type": "manufacturer_manual",
+      "publisher": "BLUETTI",
+      "title": "BLUETTI Pioneer MD AC180T — User Manual (US)",
+      "url": "https://www.bluettipower.com/products/ac180t",
+      "content_hash": "77b4ebd1f993dda1adaeaca221cfdbb60d8203b40e82551beb36bf5c5f05d829",
+      "hash_algorithm": "sha256",
+      "accessed_at": "2026-11-01",
+      "revision": null,
+      "variant": "us",
+      "locator": "Manufacturer user manual (full document)",
+      "models": [
+        "bluetti-pioneer-md-ac180t"
+      ]
+    }
+  ]
+}

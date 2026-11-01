@@ -1,0 +1,18 @@
+# Notice
+
+## Third-party material
+
+This repository publishes factual product specifications, bibliographic metadata (source URL and SHA-256), and short original commentary. It does not redistribute manufacturer manuals, product images, logos, or marketing text.
+
+Manufacturer names, product names, and trademarks are the property of their respective owners. Their use here is nominative: to identify the products being described. No affiliation, sponsorship, endorsement, or official partnership is claimed or implied.
+
+## Licenses
+
+- Data and notes: CC BY 4.0. See [LICENSE-DATA](LICENSE-DATA) and [ATTRIBUTION.md](ATTRIBUTION.md).
+- Code and schema: MIT. See [LICENSE](LICENSE).
+
+The licenses apply only to original material authored by PowerStationLabs. They do not grant rights to third-party documents, trademarks, or other third-party material.
+
+## Safety
+
+This repository is not professional engineering advice. Runtime estimates are estimates, not measurements or guarantees. Do not use them for medical or life-support equipment, backfeeding, or any application where a power failure can cause injury or property damage. Verify specifications with the manufacturer and follow local electrical codes; installation of solar arrays, transfer switches, and household wiring should be performed by a qualified electrician.
